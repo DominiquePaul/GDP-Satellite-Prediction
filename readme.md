@@ -5,9 +5,9 @@ The main goal during creating this repository was learning *how to work* with sa
 
 ## 1. Relevant papers considered during research for the repository:
 * Henderson, Storeygard & Weil (2019). Measuring Economic Growth from Outer Space  [click here](https://cepr.org/sites/default/files/meets/2409/papers/hendersonpaper.pdf)
-* Martinez (2018). How Much Should We Trust the Dictator's GDP
+* Martinez (2018). How Much Should We Trust the Dictator's GDP
 Estimates? [click here](https://ostromworkshop.indiana.edu/pdf/piep2018/martinez-paper.pdf)
-* Zhao, Liu, Cao & Samson (2017) Forecasting China's GDP at the pixel level using nighttime lights time series and population images [click here](https://www.tandfonline.com/eprint/dr3JMcWMQbImgR2MpDMY/full)
+* Zhao, Liu, Cao & Samson (2017) Forecasting China's GDP at the pixel level using nighttime lights time series and population images [click here](https://www.tandfonline.com/eprint/dr3JMcWMQbImgR2MpDMY/full)
 * Doll (2008) CIESIN Thematic Guide to Night-time Light
 Remote Sensing and its Applications [click here](https://pdfs.semanticscholar.org/ff03/200355ce4f6f48a3c03fabc479e7fc46fa0f.pdf)
 
