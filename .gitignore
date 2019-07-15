@@ -1,4 +1,5 @@
-Data/NOAA_data
+Data/NOAA_data_satellites
+Data/ignore
+Slides
 Output
-
-
+nighttime_light_intensity_analytics
