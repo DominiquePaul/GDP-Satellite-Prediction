@@ -1,13 +1,13 @@
 # About this repository
-This repository shows how to predict GDP data with satellite images of the night sky. The main file for contaning the code is called `GDP_satellite_estimation.ipynb`.
+This repository shows how to predict GDP data with satellite images of the night sky. The main file for containing the code is called `GDP_satellite_estimation.ipynb`.
 
 The main goal during creating this repository was learning *how to work* with satellite images and therefore there was little emphasis put on the statistical methods predicting GDP figures from the satellite data. This is a further point of improvement as mentioned below.
 
 ## 1. Relevant papers considered during research for the repository:
 * Henderson, Storeygard & Weil (2019). Measuring Economic Growth from Outer Space  [click here](https://cepr.org/sites/default/files/meets/2409/papers/hendersonpaper.pdf)
-* Martinez (2018). How Much Should We Trust the Dictatorâ€™s GDP
+* Martinez (2018). How Much Should We Trust the Dictator'€™s GDP
 Estimates? [click here](https://ostromworkshop.indiana.edu/pdf/piep2018/martinez-paper.pdf)
-* Zhao, Liu, Cao & Samson (2017) Forecasting Chinaâ€™s GDP at the pixel level using nighttime lights time series and population images [click here](https://www.tandfonline.com/eprint/dr3JMcWMQbImgR2MpDMY/full)
+* Zhao, Liu, Cao & Samson (2017) Forecasting China'€™s GDP at the pixel level using nighttime lights time series and population images [click here](https://www.tandfonline.com/eprint/dr3JMcWMQbImgR2MpDMY/full)
 * Doll (2008) CIESIN Thematic Guide to Night-time Light
 Remote Sensing and its Applications [click here](https://pdfs.semanticscholar.org/ff03/200355ce4f6f48a3c03fabc479e7fc46fa0f.pdf)
 
@@ -33,7 +33,7 @@ When extracting data from the image files the script will save the resulting dat
 ### 3.2 Image cuts
 The script saves images of the individual countries night sky so that these can be examined or re-used at a later point. These files are saved as .tif files in the folder `.output/images` and look like this image of Italy in 2013:
 
-![example night time sky of Italy in 2013](./Output/images/Italy_2013.tif)
+![example night time sky of Italy in 2013](./Output/example_images/Italy_2013.tif)
 
 The images can be assembled together via a function in the script to create animations of the developments over time that look like this animation of the German sky from 1992-2013:
 
@@ -45,14 +45,14 @@ The satellite data was collected and cleaned by the NOAA in the course of the De
 
 The data used was collected between 8.30-10.00 pm for each location has been cleaned for: Cloud covered areas, special lightings (full-moon reflections, aurora lights), forest fires, glares caused by the solar elevation angle and more.
 
-More information on the satellite imates can be found in Doll (2008) referenced below.
+More information on the satellite images can be found in Doll (2008) referenced below.
 
 * Satellite images: https://ngdc.noaa.gov/eog/dmsp/downloadV4composites.html
 * GDP data: https://data.worldbank.org/indicator/NY.GDP.MKTP.CD
 * Urbanization data: https://data.worldbank.org/indicator/sp.urb.totl.in.zs
 
 ## 5. Further features that could be added
-You can always go further and add more features, meaning that in you also have to stop somewhere. For the case that somebody else might find this work interesting and might be interested in continuing the work on it I will note some ideas that I had during coding, but did not have enought time to pursue further:
+You can always go further and add more features, meaning that in you also have to stop somewhere. For the case that somebody else might find this work interesting and might be interested in continuing the work on it I will note some ideas that I had during coding, but did not have enough time to pursue further:
 
 * **Smooth satellite images being saved:** The function saving the images of the individual countries only saves *one image* per year of only *one satellite* (all numeric values are extracted though for the later use of the data). To make the animations smoother it might make sense to create the average of light intensity for the satellites overlapping in the respective years.
 * **Add p-value and r-squared values to plots:** There are several plots including a regression line. For these it would be nice to add a small box in the plot (or a small text beneath the title) that indicates what the significance and the explanatory power of the regression is
