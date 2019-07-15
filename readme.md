@@ -33,7 +33,7 @@ When extracting data from the image files the script will save the resulting dat
 ### 3.2 Image cuts
 The script saves images of the individual countries night sky so that these can be examined or re-used at a later point. These files are saved as .tif files in the folder `.output/images` and look like this image of Italy in 2013:
 
-![example night time sky of Italy in 2013](./Output/example_images/Italy_2013.tif)
+![example night time sky of Italy in 2013](./Output/Italy_2013.png)
 
 The images can be assembled together via a function in the script to create animations of the developments over time that look like this animation of the German sky from 1992-2013:
 
